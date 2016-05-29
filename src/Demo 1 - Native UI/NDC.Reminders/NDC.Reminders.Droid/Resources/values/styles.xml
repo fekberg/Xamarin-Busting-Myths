@@ -1,0 +1,7 @@
+﻿<resources>
+  <style name="NdcOslo" parent="Theme.AppCompat.Light.DarkActionBar">
+  </style>
+  <style name="NdcOsloSplash" parent="Theme.AppCompat.Light">
+    <item name="android:windowBackground">@drawable/splash</item>
+  </style>
+</resources>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.fekberg.reminders" android:installLocation="auto" android:versionCode="1">
+	<uses-sdk android:minSdkVersion="15" />
+	<application android:label="Reminders" android:icon="@drawable/ic_fekberg_ab_192"></application>
+</manifest>
