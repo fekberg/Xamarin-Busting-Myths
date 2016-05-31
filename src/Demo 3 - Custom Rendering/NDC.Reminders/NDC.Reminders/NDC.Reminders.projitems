@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>ad288f62-adcb-4c60-97a1-f54226509ffb</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>NDC.Reminders</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AccountManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\TodoItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\AddTodoPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\LoginPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\TodoPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Repositories\TodoRepository.cs" />
+  </ItemGroup>
+</Project>
