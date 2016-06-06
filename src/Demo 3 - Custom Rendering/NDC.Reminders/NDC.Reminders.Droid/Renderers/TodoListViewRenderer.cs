@@ -49,7 +49,8 @@ namespace NDC.Reminders.Droid.Renderers
             await repository.UpdateAsync(todoItem);
 
             Snackbar
-                .Make(RootView, $"{todoItem.Text} marked as done!", Snackbar.LengthLong)
+                .Make(listView, $"{todoItem.Text} marked as done!", 
+                Snackbar.LengthLong)
                 .SetAction("Undo", async (view) =>
                 {
                     todoItem.Done = false;
